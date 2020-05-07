@@ -16,6 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Pango.Api\Pango.Api.csproj" />
       <ProjectReference Include="..\Pango.Lib\Pango.Lib.csproj" />
     </ItemGroup>
 

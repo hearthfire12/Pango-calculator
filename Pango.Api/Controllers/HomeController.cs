@@ -17,10 +17,8 @@ namespace Pango.Api.Controllers
             _parser = parser;
         }
         
-        // TODO: use custom attribute for deserialization (RequestJsonConverter)
-        public Response Calculate([FromBody] string requestJson)
+        public Response Calculate([FromBody] Request request)
         {
-            Request request = _parser.ParseRequest(requestJson);
             var result = request.Expression.Calculate();
 
             if (request.Client == ClientType.Mobile)
