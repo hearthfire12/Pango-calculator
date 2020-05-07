@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pango.Tests", "Pango.Tests\Pango.Tests.csproj", "{52B37C8F-F060-47CC-9257-B5A2AD496367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pango.Lib", "Pango.Lib\Pango.Lib.csproj", "{0D552773-6B9B-4496-A570-F3C52026D731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pango.Api", "Pango.Api\Pango.Api.csproj", "{5103116C-AA4F-4D94-973E-1C557B830B28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B37C8F-F060-47CC-9257-B5A2AD496367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B37C8F-F060-47CC-9257-B5A2AD496367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B37C8F-F060-47CC-9257-B5A2AD496367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B37C8F-F060-47CC-9257-B5A2AD496367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D552773-6B9B-4496-A570-F3C52026D731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D552773-6B9B-4496-A570-F3C52026D731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D552773-6B9B-4496-A570-F3C52026D731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D552773-6B9B-4496-A570-F3C52026D731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5103116C-AA4F-4D94-973E-1C557B830B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5103116C-AA4F-4D94-973E-1C557B830B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5103116C-AA4F-4D94-973E-1C557B830B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5103116C-AA4F-4D94-973E-1C557B830B28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
